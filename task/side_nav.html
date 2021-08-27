@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>側邊選單</title>
+  <link rel="stylesheet" type="text/css" href="res/css/web.css">
+  <style type="text/css">
+    html, body{
+      height: 100%;
+    }
+    body{
+      background-color: #ccc;
+    }
+    .side-menu{
+      width: 300px;
+      height: 100%;
+      padding: 50px 0;
+      box-sizing: border-box;
+      background: linear-gradient(0deg, #3381b0, #c2196c);
+      display: flex;
+      flex-direction: column;
+      box-shadow: 5px 0px 10px hsla(240, 40%, 15%, .6);
+    }
+    .side-menu form{
+      display: flex;
+      margin: 0 10px 50px;
+      border-radius: 100px;
+      border: 1px solid rgb(255, 255, 255, .4);
+    }
+    .side-menu form input,
+    .side-menu form button{
+      border: none;
+      padding: 5px 10px;
+      background-color: transparent;
+      color: #fff;
+    }
+    .side-menu input{
+      width: 230px;
+    }
+    .side-menu button{
+      width: 50px;
+    }
+    .side-menu form input:focus,
+    .side-menu form button:focus{
+      outline: none;
+    }
+    nav a{
+      display: block;
+      padding: 10px;
+      color: #fff;
+      text-decoration: none;
+      position: relative;
+    }
+    nav a + a::before{
+      content: '';
+      position: absolute;
+      border-top: 1px solid #fff;
+      left: 10px;
+      right: 10;
+      top: 0;
+    }
+    nav a .fa{
+      margin-right: -1.3em;
+    }
+  </style>
+</head>
+<body>
+  <div id="side-menu">
+    <form>
+      <input type="search" name="">
+      <button></button>
+    </form>
+    <nav>
+      <a href="#">首頁</a>
+      <a href="#">筆記</a>
+      <a href="#">作品集</a>
+    </nav>
+  </div>
+</body>
+</html>

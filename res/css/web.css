@@ -1,3 +1,8 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
 body{
 	margin: 0;
 }
@@ -6,6 +11,17 @@ body{
 }
 #content .SideBar{
 	position: fixed;
+	width: 250px;
+	background-color: #f8f8f8;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+}
+h1 {
+	margin: 20px;
+}
+.contianer {
 	width: 250px;
 	background-color: #f8f8f8;
 	top: 0;
