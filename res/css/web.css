@@ -11,21 +11,41 @@ body{
 }
 #content .SideBar{
 	position: fixed;
-	width: 250px;
+	/*width: 250px;*/
+	min-width: 250px;
 	background-color: #f8f8f8;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	height: 100%;
+}
+#content .image_area{
+	width: 150px;
+	height: 150px;
+	margin: 50px auto;
+}
+#content .image_area img{
+	width: 100%;
+	border-radius: 100px;
+}
+#content .SideBar nav{
+	margin: 0 50px;
+}
+#content .SideBar nav a{
+	display: flex;
+	margin-bottom: 20px;
+	font-size: 24px;
+	text-decoration: none;
+	color: #333;
+}
+#content .SideBar nav a:hover{
+	color: #EF9700;
 }
 h1 {
 	margin: 20px;
 }
 .contianer {
-	width: 250px;
-	background-color: #f8f8f8;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	height: 100%;
+	width: 100%;
+	display: flex;
+	margin-left: 250px;
 }
