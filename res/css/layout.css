@@ -6,8 +6,21 @@
 body{
 	margin: 0;
 }
-#content{
-
+nav{
+	width: 100%;
+	background-color: #b63200;
+	color: #fff;
+	display: flex;
+}
+nav a{
+	color: #fff;
+	text-decoration: none;
+	padding: 12px 16px;
+	display: flex;
+	align-items: center;
+}
+.banner-img img{
+	width: 100%;
 }
 #content .SideBar{
 	position: fixed;
