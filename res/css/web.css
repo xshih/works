@@ -46,7 +46,19 @@ h1 {
 }
 .contianer {
 	width: 100%;
+	margin: 150px auto 150px 320px;
+}
+.contianer div{
+	margin-bottom: 10px;
+}
+.contianer h3 a{
+	color: #333;
+	text-decoration: none;
+}
+.contianer .content img{
 	display: flex;
-	margin-left: 320px;
+}
+.contianer .content-text {
+	margin: 20px 0;
 }
 
